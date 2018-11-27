@@ -105,7 +105,7 @@ const update = data => {
 };
 
 // data array and firestore
-var data = [];
+let data = [];
 
 db.collection("expenses")
   .orderBy("cost")
